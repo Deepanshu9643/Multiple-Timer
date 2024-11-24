@@ -1,0 +1,95 @@
+body {
+    font-family: roboto, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: black;
+    margin: 0;
+    text-align: center;
+    color: white;
+}
+/* .conatiner h1{
+    text-align: cnter;
+} */
+.container {
+    background-color: black;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.timerInput {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+    background-color: #34344A;
+    border-radius: 10px;
+    padding: 30px;
+}
+
+.timerInput input {
+    width: 60px;
+    padding: 5px;
+    background-color: transparent;
+    /* border-radius: 10px; */
+    border: none;
+    font-size: 28px;
+    text-align: center;
+    text-decoration: underline;
+    color: white;
+}
+
+#set{
+    background-color: yellow;
+    border-radius: 30px;
+    font-size: 18px;
+    border:none;
+    width:124px;
+    height: 52px;
+}
+
+.timers-section {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    /* background-color: #34344A; */
+}
+
+.timer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* background-color: #e0e0e0; */
+    padding: 10px;
+    font-size: 24px;
+    border-radius: 5px;
+    background-color: #34344A;
+}
+
+.timer.end {
+    background-color: yellow;
+    color: black;
+    border-radius: 20px;     
+    /* text-align: center; */
+    /* border: 1px solid black; */
+}
+
+.timer.end button{
+    background-color: #34344A;
+    color: white;
+}
+
+/* .timers-section button{
+background-color: yellow;
+} */
+
+
+.stopbtn{
+    background-color: yellow;
+    border-radius: 30px;
+    font-size: 18px;
+    border:none;
+    width:124px;
+    height: 52px;
+}
